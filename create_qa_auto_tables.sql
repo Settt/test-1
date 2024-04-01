@@ -1,6 +1,6 @@
 CREATE SCHEMA test_schema;
 CREATE TABLE test_schema.users(
-	first_name varchar(255),
+	first_name char(255),
     second_name varchar(255),
     year_born date,
     gender varchar(255)
