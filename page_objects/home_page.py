@@ -10,6 +10,7 @@ class HomePage(BasePage):
         self._driver.get("https://guest:welcome2qauto@qauto.forstudy.space/")
 
     def click_guest_login_button(self):
+        """"new"""
         self._driver.find_element(
             By.XPATH, "//button[@class='header-link -guest']"
         ).click()
