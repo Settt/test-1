@@ -11,6 +11,7 @@ class HomePage(BasePage):
 
     def click_guest_login_button(self):
         """"new"""
+        """ttt"""
         self._driver.find_element(
             By.XPATH, "//button[@class='header-link -guest']"
         ).click()
