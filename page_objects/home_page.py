@@ -6,6 +6,7 @@ from page_objects.base_page import BasePage
 
 class HomePage(BasePage):
     def open(self):
+        """open the page"""
         self._driver.get("https://guest:welcome2qauto@qauto.forstudy.space/")
 
     def click_guest_login_button(self):
